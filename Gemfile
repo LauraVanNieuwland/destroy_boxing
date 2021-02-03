@@ -34,7 +34,9 @@ gem 'dotenv-rails', groups: [:development, :test]
 # image uploading cloudinary
 gem 'cloudinary', '~> 1.16.0'
 
+gem 'autoprefixer-rails'
 # font awesome
+
 gem 'font-awesome-sass'
 # simple form
 gem 'simple_form'
