@@ -26,6 +26,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 
 # Use Active Storage variant
+# Gem for security env files
+gem 'dotenv-rails', groups: [:development, :test]
+
 # gem 'image_processing', '~> 1.2'
 
 # font awesome
