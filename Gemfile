@@ -31,6 +31,9 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 # gem 'image_processing', '~> 1.2'
 
+# image uploading cloudinary
+gem 'cloudinary', '~> 1.16.0'
+
 # font awesome
 gem 'font-awesome-sass'
 # simple form
