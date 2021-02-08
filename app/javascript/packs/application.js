@@ -16,9 +16,14 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+import { stickyNavbar } from '../components/navbar'
+// import { deleteStickyClassNavbar } from '../components/navbar'
+
 
 
 document.addEventListener('turbolinks:load', () => {
   // Call your JS functions here
+  stickyNavbar();
+  // deleteStickyClassNavbar();
 });
 
