@@ -1,25 +1,52 @@
   
- const activeNavbar = () => {
-     // Get the container element
-  const navContainer = document.querySelector(".nav-menu");
+//  const activeNavbar = () => {
+//      // Get the container element
+//   let navContainer = document.getElementById("nav-menu");
 
-  // Get all buttons with class="btn" inside the container
-  const navLinks = navContainer.getElementsByClassName("nav-link");
+//   // Get all buttons with class="btn" inside the container
+//   let navLinks = navContainer.getElementsByClassName("nav-link");
 
-  // Loop through the buttons and add the active class to the current/clicked button
-  for (var i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
+//   // Loop through the buttons and add the active class to the current/clicked button
+//   for (let i = 0; i < navLinks.length; i++) {
+//     navLinks[i].addEventListener("click", function() {
+//       let current = document.getElementsByClassName("active");
 
-      // If there's no active class
-      if (current.length > 0) {
-        current[0].className = current[0].className.replace(" active", "");
-      }
+//       // If there's no active class
+//       if (current.length > 0) {
+//         current[0].className = current[0].className.replace(" active", "");
+//       }
 
-      // Add the active class to the current/clicked button
-      this.className += " active";
-    });
-  }
- } 
+//       // Add the active class to the current/clicked button
+//       this.className += " active";
+//     });
+//   }
+//  } 
 
- export { activeNavbar };
+
+//  // Active button
+
+//  const activeButton = () => {
+//    // Get the container element
+//   var btnContainer = document.getElementById("myDIV");
+
+//   // Get all buttons with class="btn" inside the container
+//   var btns = btnContainer.getElementsByClassName("btn");
+
+//   // Loop through the buttons and add the active class to the current/clicked button
+//   for (var i = 0; i < btns.length; i++) {
+//     btns[i].addEventListener("click", function() {
+//       var current = document.getElementsByClassName("active");
+
+//       // If there's no active class
+//       if (current.length > 0) {
+//         current[0].className = current[0].className.replace(" active", "");
+//       }
+
+//       // Add the active class to the current/clicked button
+//       this.className += " active";
+//     });
+//   }
+//  }
+
+//  export { activeNavbar };
+//  export { activeButton };
