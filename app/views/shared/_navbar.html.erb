@@ -1,12 +1,13 @@
-<nav></nav>
-
-
-<div id="navbar">
-  <%= link_to cl_image_tag("DestroyBoxing/logo_destroy_black_gold_small.png"), root_path, class: "logo-navbar" %> 
-  <div id="nav-menu">
-    <%= link_to "HOME", root_path, class: current_class?(root_path) %>
-    <%= link_to "ABOUT", about_path, class: current_class?(about_path) %>
-    <%= link_to "PRODUCTEN", products_path, class: current_class?(products_path) %>
-    <%= link_to "CONTACT", contact_path, class: current_class?(contact_path) %>
+<nav>
+  <div id="navbar">
+    <%= link_to cl_image_tag("DestroyBoxing/logo/Destroy_logo_goud_transparant_background.png"), root_path, class: "logo-navbar" %> 
+    <div id="nav-menu">
+      <%= link_to "HOME", root_path, class: current_class?(root_path) %>
+      <%= link_to "ABOUT", about_path, class: current_class?(about_path) %>
+      <%= link_to "PRODUCTEN", products_path, class: current_class?(products_path) %>
+      <%= link_to "CONTACT", contact_path, class: current_class?(contact_path) %>
+    </div>
   </div>
-</div>
+</nav>
+
+
