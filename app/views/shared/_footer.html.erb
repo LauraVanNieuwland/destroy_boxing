@@ -25,23 +25,25 @@
         <p><%= link_to "Contact", contact_path, class: "footer-link" %></p>
         <p><%= link_to "Login", new_user_session_path, class: "" %></p>
         <p><%= link_to "Log out", destroy_user_session_path, method: :delete, class: "" %></p>
-        <p><%= link_to "Kladblok", kladblok_path, class: "" %></p>
       </div>
-      <div class="div">
-        <h3>Korting bij grote afname!</h3>
-        <p> Neem vrijblijven contact op en vraag naar een offerte</p>
-        <button><a href="contact">Contact Me</a></button>
-      
+      <div class="right-div">
+        <div class="div">
+          <h3>Korting bij grote afname!</h3>
+          <p> Neem vrijblijven contact op en vraag naar een offerte</p>
+          <button><a href="contact">Contact Me</a></button>
+        </div>
+
+        <div class="icons-footer">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>      
       </div>
     </div>
-    <div class="div-bottom">
+
+    <div class="created-by">
       <a href="http://www.ljm-webdevelopment.nl/" class="copyright"><i class="far fa-copyright"></i> <%= Time.zone.now.year %> www.ljm-webdevelopment.nl</i></a>
-      <div class="icons-footer">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>  
-      
+    
     </div>
 
   </div>
